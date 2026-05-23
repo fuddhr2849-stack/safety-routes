@@ -146,7 +146,7 @@ def calculate_safety_score(route, facilities_data, weights):
 # layout="centered" 로 화면을 중앙으로 모아 앱 느낌 강조
 st.set_page_config(page_title="최적의 귀로", page_icon="🚶‍♂️", layout="centered") 
 
-st.title("🚶‍♂️ 최적의 귀로(歸路)")
+st.header("🚶‍♂️ 최적의 귀로(歸路)")
 
 # 사이드바 대신 아코디언(Expander) 메뉴 사용
 with st.expander("⚙️ 안전 요소 가중치 설정 (터치하여 열기)"):
