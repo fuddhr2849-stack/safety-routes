@@ -165,8 +165,8 @@ with st.expander("⚙️ 안전 요소 가중치 설정 (터치하여 열기)"):
 
 # UI 레이아웃 분할: 출발지와 목적지 입력창을 나란히 배치
 col1, col2 = st.columns(2)
-with col1: start_addr = st.text_input("📍 출발지", placeholder="혜화역")
-with col2: end_addr = st.text_input("🚩 목적지", placeholder="성균관대")
+with col1: start_addr = st.text_input("📍 출발지", placeholder="예시) 혜화역")
+with col2: end_addr = st.text_input("🚩 목적지", placeholder="예시) 성균관대")
 
 # use_container_width=True로 버튼을 가로 꽉 차게 만듦
 if st.button("🔍 안심 경로 탐색", type="primary", use_container_width=True):
